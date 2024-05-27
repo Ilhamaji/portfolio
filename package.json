@@ -1,7 +1,7 @@
 {
   "homepage": "https://ilhamaji.github.io/portfolio",
   "name": "portfolio-minim",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
