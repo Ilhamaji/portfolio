@@ -20,10 +20,11 @@ export default function Home() {
 
   return (
     <>
-      <div className="w-screen h-screen bg-neutral-100 dark:bg-neutral-900">
+      <div className="w-screen bg-neutral-100 dark:bg-neutral-900">
         <Nav theme={theme} themeHandler={themeHandler} />
         <Banner theme={theme} />
         <Skills />
+        <div className="h-96"></div>
       </div>
     </>
   );
