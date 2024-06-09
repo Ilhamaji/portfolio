@@ -15,13 +15,13 @@ export default function Skills() {
 
   return (
     <>
-      <div className="flex w-auto h-10 bg-neutral-200 rounded-lg mx-10 mt-10">
+      <div className="flex w-auto h-10 bg-neutral-200 dark:bg-neutral-600 dark:text-white rounded-lg mx-10 mt-10">
         <button
           ref={skills}
           onClick={() => setTab(1)}
           className={
             tab === 1
-              ? "w-full relative flex before:bg-white before:w-[100%] before:left-1 before:h-8 before:my-1 before:flex before:absolute before:rounded-lg before:transition before:ease-in-out before:duration-500"
+              ? "w-full relative flex before:bg-white before:w-[100%] before:left-1 before:h-8 before:my-1 before:flex before:absolute before:rounded-lg before:transition before:ease-in-out before:duration-500 dark:before:bg-[#6c63ff]"
               : "w-full relative flex before:transition before:ease-in-out before:duration-500"
           }
         >
@@ -31,7 +31,7 @@ export default function Skills() {
           onClick={() => setTab(2)}
           className={
             tab === 2
-              ? "w-full relative flex before:bg-white before:w-[100%] before:h-8 before:my-1 before:flex before:absolute before:rounded-lg before:transition before:ease-in-out before:duration-500"
+              ? "w-full relative flex before:bg-white before:w-[100%] before:h-8 before:my-1 before:flex before:absolute before:rounded-lg before:transition before:ease-in-out before:duration-500 dark:before:bg-[#6c63ff]"
               : "w-full relative flex before:transition before:ease-in-out before:duration-500"
           }
         >
@@ -41,7 +41,7 @@ export default function Skills() {
           onClick={() => setTab(3)}
           className={
             tab === 3
-              ? "w-full relative flex before:bg-white before:w-[100%] before:right-1 before:h-8 before:my-1 before:flex before:absolute before:rounded-lg before:transition before:ease-in-out before:duration-500"
+              ? "w-full relative flex before:bg-white before:w-[100%] before:right-1 before:h-8 before:my-1 before:flex before:absolute before:rounded-lg before:transition before:ease-in-out before:duration-500 dark:before:bg-[#6c63ff]"
               : "w-full relative flex before:transition before:ease-in-out before:duration-500"
           }
         >
@@ -49,7 +49,7 @@ export default function Skills() {
         </button>
       </div>
       <div className="flex mx-10 mt-2">
-        <div className="grid w-full bg-neutral-200 p-5 rounded-lg">
+        <div className="grid w-full bg-neutral-200 dark:bg-neutral-600 p-5 rounded-lg">
           {tab === 1 ? (
             <motion.div
               animate={{
@@ -71,8 +71,8 @@ export default function Skills() {
                 }}
                 className={
                   isInView
-                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white duration-1000"
-                    : "opacity-0 flex h-20 w-full rounded-lg bg-white"
+                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white dark:bg-neutral-500 dark:text-white duration-1000"
+                    : ""
                 }
               >
                 <div className="m-auto block">
@@ -90,7 +90,7 @@ export default function Skills() {
                 }}
                 className={
                   isInView
-                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white duration-[1500ms]"
+                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white dark:bg-neutral-500 dark:text-white duration-[1500ms]"
                     : ""
                 }
               >
@@ -109,7 +109,7 @@ export default function Skills() {
                 }}
                 className={
                   isInView
-                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white duration-[2000ms]"
+                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white dark:bg-neutral-500 dark:text-white duration-[2000ms]"
                     : ""
                 }
               >
@@ -128,7 +128,7 @@ export default function Skills() {
                 }}
                 className={
                   isInView
-                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white duration-1000"
+                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white dark:bg-neutral-500 dark:text-white duration-1000"
                     : ""
                 }
               >
@@ -147,7 +147,7 @@ export default function Skills() {
                 }}
                 className={
                   isInView
-                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white duration-[1500ms]"
+                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white dark:bg-neutral-500 dark:text-white duration-[1500ms]"
                     : ""
                 }
               >
@@ -169,7 +169,7 @@ export default function Skills() {
                 }}
                 className={
                   isInView
-                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white duration-1000"
+                    ? "opacity-1 flex h-20 w-full rounded-lg bg-white dark:bg-neutral-500 dark:text-white duration-1000"
                     : ""
                 }
               >

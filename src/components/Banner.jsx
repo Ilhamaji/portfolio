@@ -21,7 +21,7 @@ export default function Banner({ theme }) {
         </div>
         <button className="px-5 py-2 bg-[#6c63ff] rounded-md mt-4 text-white font-semibold">
           <svg
-            className="w-6 h-6 text-gray-800 dark:text-white inline mr-2"
+            className="w-6 h-6 text-gray-800 text-white inline mr-2"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
