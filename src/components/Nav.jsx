@@ -3,7 +3,7 @@ import React from "react";
 export default function Nav({ theme, themeHandler }) {
   return (
     <>
-      <div className="z-[100] sticky flex w-4/5 h-16 mx-auto top-[88%] rounded-lg px-5 justify-between bg-white/50 drop-shadow-sm backdrop-blur-sm dark:bg-neutral-600/50">
+      <div className="z-[100] fixed flex w-4/5 h-16 mx-auto bottom-1 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg px-5 justify-between bg-white/50 drop-shadow-sm backdrop-blur-sm dark:bg-neutral-600/50">
         <div className="grid grid-cols-5 w-full h-100 place-items-center dark:text-white">
           <div className="">
             <svg
